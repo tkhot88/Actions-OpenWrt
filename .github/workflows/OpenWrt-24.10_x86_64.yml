@@ -2,7 +2,7 @@
 # https://github.com/quanjindeng/Actions_OpenWrt
 #
 
-name: OpenWrt-24.10
+name: OpenWrt-24.10_x86_64
 
 on:
   repository_dispatch:
