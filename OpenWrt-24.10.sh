@@ -46,7 +46,7 @@ git clone --depth 1 https://github.com/lisaac/luci-app-dockerman package/deng/lu
 # git clone --depth 1 https://github.com/vernesong/OpenClash package/deng/luci-app-openclash
 # git clone --depth 1 https://github.com/Leo-Jo-My/luci-theme-opentomcat.git package/deng/luci-theme-opentomcat
 git clone --depth 1 https://github.com/sirpdboy/luci-app-lucky.git package/deng/luci-app-lucky
-# git clone --depth 1 https://github.com/y12800/luci-app-filebrowser package/filebrowser
+
 git clone --depth 1 https://github.com/xiaozhuai/luci-app-filebrowser package/luci-app-filebrowser
 # git clone --depth 1 https://github.com/danchexiaoyang/luci-app-kodexplorer package/luci-app-kodexplorer
 git clone --depth 1 https://github.com/danchexiaoyang/luci-app-kodexplorer package/luci-app-kodexplorer && chmod -R 755 package/luci-app-kodexplorer
@@ -59,7 +59,7 @@ git clone --depth 1 https://github.com/pymumu/openwrt-smartdns package/smartdns
 git clone --depth 1 https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 # git clone --depth 1 https://github.com/sirpdboy/luci-app-parentcontrol package/deng/luci-app-parentcontrol
 git clone --depth 1 https://github.com/sirpdboy/luci-app-cupsd.git package/deng/luci-app-cupsd
-# git clone --depth 1 https://github.com/y12800/zerotier package/deng/zerotier
+
 git clone --depth 1 https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 sed -i 's/EXTRA_CFLAGS:=.*/& -Wno-error=misleading-indentation/' package/OpenAppFilter/oaf/Makefile
 # git clone --depth 1 https://github.com/zhengmz/luci-app-zerotier.git package/luci-app-zerotier
