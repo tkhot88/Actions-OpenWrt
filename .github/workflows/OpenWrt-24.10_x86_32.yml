@@ -147,11 +147,10 @@ jobs:
         cd openwrt
         $GITHUB_WORKSPACE/$DIY_P2_SH
 
-    #- name: Apply customizations
-    #  run: |
-    #    cd openwrt
-    #    wget https://raw.githubusercontent.com/y12800/Actions-OpenWrt/main/app.sh
-    #    source ./app.sh
+    - name: 强制启用 ccache
+      run: |
+        sed -i '/CONFIG_CCACHE/d' openwrt/.config
+        echo 'CONFIG_CCACHE=y' >> openwrt/.config
 
     - name: 下载软件包
       id: package
