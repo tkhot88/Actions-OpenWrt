@@ -21,6 +21,8 @@ sed -i 's/--set=llvm.download-ci-llvm=true/--set=llvm.download-ci-llvm=false/' f
 
 # git clone --depth 1 https://github.com/immortalwrt-collections/luci-theme-neobird package/deng/luci-theme-neobird
 
+git clone --depth 1 https://github.com/fullcone-nat-nftables/nft-fullcone.git package/nft-fullcone
+# git clone --depth 1 https://github.com/chenmozhijin/turboacc package/turboacc
 git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
 git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall-packages.git package/openwrt-passwall-packages
 
