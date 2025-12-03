@@ -17,9 +17,9 @@ sed -i "s/option iptables '1'/option iptables '0'/g" feeds/packages/utils/docker
 
 #Turbo ACC 网络加速设置
 rm -rf package/turboacc || true
-curl -sSL https://raw.githubusercontent.com/tkhot88/turboacc2/main/add_turboacc.sh -o add_turboacc.sh
-chmod +x add_turboacc.sh
-bash add_turboacc.sh
+curl -sSL https://raw.githubusercontent.com/tkhot88/turboacc2/main/turboacc2.sh -o turboacc2.sh
+chmod +x turboacc2.sh
+bash turboacc2.sh
 
 
 
